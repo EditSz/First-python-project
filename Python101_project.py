@@ -10,7 +10,7 @@ while True:
     if player_choice == "quit":
         break
 
-    if player_choice != "rock" and player_choice != "paper" and player_choice != "scissors" and player_choice != "Spock" and player_choice != "lizard":
+    if player_choice != "rock" and player_choice != "paper" and player_choice != "scissors" and player_choice != "lizard" and player_choice != "Spock":
         print("Oh, come on! Please choose a correct one!")
         continue
 
@@ -50,7 +50,6 @@ while True:
     elif player_choice == "Spock" and computer_choice == "scissors":
         print("Yes, Spock smashes the scissors. You win!")
         break
-
 
     else:
         print("You lose! Come on, you can do it better! Try again!")
