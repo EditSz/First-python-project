@@ -10,7 +10,7 @@ while True:
     if player_choice == "quit":
         break
 
-    if player_choice != "rock" and player_choice != "paper" and player_choice != "scissors" and player_choice != "lizard" and player_choice != "Spock":
+    if player_choice != "rock" and player_choice != "paper" and player_choice != "scissors" and player_choice != "lizard" and player_choice != "spock":
         print("Oh, come on! Please choose a correct one!")
         continue
 
@@ -55,9 +55,7 @@ while True:
         print("You lose! Come on, you can do it better! Try again!")
         continue
 
-    next_round = input("Do you want a next round? Y/N: ")
-    if next_round != "y":
-        break
+
 
     
 
